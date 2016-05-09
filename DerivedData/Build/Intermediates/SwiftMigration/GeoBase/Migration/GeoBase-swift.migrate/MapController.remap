@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/Matt/XCode/GeoBase/GeoBase/MapController.swift",
+  "offset": 1158,
+  "remove": 457,
+  "text": ", didUpdateLocations locations: [CLLocation]) {\n        \n        \n        let locationArray = locations as NSArray\n        let currentLocation = locationArray.lastObject as! CLLocation\n        let latitude: CLLocationDegrees = currentLocation.coordinate.latitude\n        let longitude:CLLocationDegrees = currentLocation.coordinate.longitude\n        \n        let location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)\n        let",
+ }
+]

@@ -1,0 +1,66 @@
+
+/* Class = "UILabel"; text = "∞"; ObjectID = "0Nf-Tx-e5j"; */
+"0Nf-Tx-e5j.text" = "∞";
+
+/* Class = "UIButton"; normalTitle = "Compass"; ObjectID = "80h-uI-QqG"; */
+"80h-uI-QqG.normalTitle" = "Compass";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "9ZD-jB-8O0"; */
+"9ZD-jB-8O0.normalTitle" = "Record";
+
+/* Class = "UIButton"; normalTitle = "Compass"; ObjectID = "AKE-lV-4Zw"; */
+"AKE-lV-4Zw.normalTitle" = "Compass";
+
+/* Class = "UILabel"; text = "Longitude"; ObjectID = "C9d-lk-y1g"; */
+"C9d-lk-y1g.text" = "Longitude";
+
+/* Class = "UIViewController"; title = "GeoCompass"; ObjectID = "Dc2-FX-I8j"; */
+"Dc2-FX-I8j.title" = "GeoCompass";
+
+/* Class = "UILabel"; text = "Dip"; ObjectID = "E4I-dr-GIg"; */
+"E4I-dr-GIg.text" = "Dip";
+
+/* Class = "UILabel"; text = "Elevation"; ObjectID = "GBU-sF-q3M"; */
+"GBU-sF-q3M.text" = "Elevation";
+
+/* Class = "UINavigationItem"; title = "GeoBase"; ObjectID = "Hpg-Yi-CJa"; */
+"Hpg-Yi-CJa.title" = "GeoBase";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "Jtz-fc-kap"; */
+"Jtz-fc-kap.text" = "Location";
+
+/* Class = "UILabel"; text = "Latitude"; ObjectID = "MVa-rC-fff"; */
+"MVa-rC-fff.text" = "Latitude";
+
+/* Class = "UILabel"; text = "Database"; ObjectID = "PNi-aa-P3C"; */
+"PNi-aa-P3C.text" = "Database";
+
+/* Class = "UILabel"; text = "∞"; ObjectID = "WMQ-DR-JBy"; */
+"WMQ-DR-JBy.text" = "∞";
+
+/* Class = "UIButton"; normalTitle = "Compass"; ObjectID = "X3n-wY-Fvd"; */
+"X3n-wY-Fvd.normalTitle" = "Compass";
+
+/* Class = "UILabel"; text = "Stereonet"; ObjectID = "Z4f-RH-B23"; */
+"Z4f-RH-B23.text" = "Stereonet";
+
+/* Class = "UILabel"; text = "∞"; ObjectID = "ak6-xl-fxZ"; */
+"ak6-xl-fxZ.text" = "∞";
+
+/* Class = "UIButton"; normalTitle = "Compass"; ObjectID = "b0z-3W-uvE"; */
+"b0z-3W-uvE.normalTitle" = "Compass";
+
+/* Class = "UILabel"; text = "Compass"; ObjectID = "bbD-Wf-rxb"; */
+"bbD-Wf-rxb.text" = "Compass";
+
+/* Class = "UILabel"; text = "undefined"; ObjectID = "fYY-um-yPf"; */
+"fYY-um-yPf.text" = "undefined";
+
+/* Class = "UILabel"; text = "Strike"; ObjectID = "m5U-ue-kQ2"; */
+"m5U-ue-kQ2.text" = "Strike";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "ru4-0R-cma"; */
+"ru4-0R-cma.title" = "Settings";
+
+/* Class = "UILabel"; text = "undefined"; ObjectID = "zHo-sh-6ap"; */
+"zHo-sh-6ap.text" = "undefined";

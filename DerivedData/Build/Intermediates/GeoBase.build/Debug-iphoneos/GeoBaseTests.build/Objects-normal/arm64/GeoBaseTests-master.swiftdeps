@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.49.3 clang-clang-602.0.49)"
+options: "37f937a6ce277913bee1bea862d262c3"
+inputs: 
+- "/Users/Matt/XCode/GeoBase/GeoBaseTests/GeoBaseTests.swift"

@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "9cc0801bf21a6c3ce55eb96ad55a09bf"
+build_time: [516073306, 359006000]
+inputs:
+  "/Users/Matt/XCode/GeoBase/GeoBase/SettingsController.swift": [496012687, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ProjectController.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Stereonet.swift": [483011444, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ViewController.swift": [481863419, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/CompassController.swift": [516073306, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/SaveButton.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ProjectDetailController.swift": [496012687, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/MapController.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/DataViewController.swift": [483415644, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Locality.swift": [485307980, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/AppDelegate.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/DataModel.swift": [485245034, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/MeasurementController.swift": [484052292, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Project.swift": [485822673, 0]

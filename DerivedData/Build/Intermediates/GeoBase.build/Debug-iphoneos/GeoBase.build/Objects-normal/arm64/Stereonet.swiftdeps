@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides:
+- "Stereonet"
+nominals:
+- "C7GeoBase9Stereonet"
+class-members:
+- "drawRect"
+top-level:
+- !private "CGContextSetStrokeColorWithColor"
+- !private "UIColor"
+- !private "CGRectMake"
+- "UIView"
+- !private "CGContextSetLineWidth"
+- "CGRect"
+- !private "UIGraphicsGetCurrentContext"
+- !private "CGContextStrokePath"
+- !private "CGContextAddEllipseInRect"
+member-access:
+- "CSo6UIView"
+- "CSo8NSObject"
+- "PSs9AnyObject"
+- "CSo11UIResponder"
+- !private "CSo7UIColor"
+- "C7GeoBase9Stereonet"
+- !private "V12CoreGraphics7CGFloat"
+dynamic-lookup:
+cross-module:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"
