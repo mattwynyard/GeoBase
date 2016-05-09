@@ -1,39 +1,192 @@
 ### Swift dependencies file v0 ###
-provides:
+provides-top-level:
 - "DataModel"
-nominals:
+provides-nominal:
 - "C7GeoBase9DataModel"
-class-members:
-- "latitude"
-- "direction"
+provides-member:
+- ["C7GeoBase9DataModel", ""]
+provides-dynamic-lookup:
+- "strike"
 - "structure"
 - "project"
 - "id"
+- "elevation"
+- "latitude"
+- "direction"
+- "date"
+- "dip"
 - "longitude"
 - "north"
-- "dip"
-- "elevation"
-- "date"
-- "strike"
-top-level:
-- "Double"
-- "String"
-- "Int32"
+depends-top-level:
 - "Project"
+- "DataModel"
+- "String"
+- "Double"
 - "NSManagedObject"
-member-access:
-- "CSo15NSManagedObject"
-- "PSs9AnyObject"
-- "CSo8NSObject"
+- "Int32"
+depends-member:
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "dip"]
+- ["Ps9AnyObject", "direction"]
+- ["Ps9AnyObject", "elevation"]
+- ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "latitude"]
+- ["Ps9AnyObject", "longitude"]
+- ["Ps9AnyObject", "north"]
+- ["Ps9AnyObject", "project"]
+- ["Ps9AnyObject", "strike"]
+- ["Ps9AnyObject", "structure"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "date"]
+- ["Ps11CVarArgType", "dip"]
+- ["Ps11CVarArgType", "direction"]
+- ["Ps11CVarArgType", "elevation"]
+- ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "latitude"]
+- ["Ps11CVarArgType", "longitude"]
+- ["Ps11CVarArgType", "north"]
+- ["Ps11CVarArgType", "project"]
+- ["Ps11CVarArgType", "strike"]
+- ["Ps11CVarArgType", "structure"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "date"]
+- ["Ps28CustomDebugStringConvertible", "dip"]
+- ["Ps28CustomDebugStringConvertible", "direction"]
+- ["Ps28CustomDebugStringConvertible", "elevation"]
+- ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "latitude"]
+- ["Ps28CustomDebugStringConvertible", "longitude"]
+- ["Ps28CustomDebugStringConvertible", "north"]
+- ["Ps28CustomDebugStringConvertible", "project"]
+- ["Ps28CustomDebugStringConvertible", "strike"]
+- ["Ps28CustomDebugStringConvertible", "structure"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "date"]
+- ["Ps23CustomStringConvertible", "dip"]
+- ["Ps23CustomStringConvertible", "direction"]
+- ["Ps23CustomStringConvertible", "elevation"]
+- ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "latitude"]
+- ["Ps23CustomStringConvertible", "longitude"]
+- ["Ps23CustomStringConvertible", "north"]
+- ["Ps23CustomStringConvertible", "project"]
+- ["Ps23CustomStringConvertible", "strike"]
+- ["Ps23CustomStringConvertible", "structure"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7GeoBase9DataModel", "Double"]
+- ["C7GeoBase9DataModel", "Int32"]
+- ["C7GeoBase9DataModel", "Project"]
+- ["C7GeoBase9DataModel", "String"]
+- ["C7GeoBase9DataModel", "date"]
+- ["C7GeoBase9DataModel", "deinit"]
+- ["C7GeoBase9DataModel", "dip"]
+- ["C7GeoBase9DataModel", "direction"]
+- ["C7GeoBase9DataModel", "elevation"]
+- ["C7GeoBase9DataModel", "id"]
+- ["C7GeoBase9DataModel", "init"]
+- ["C7GeoBase9DataModel", "latitude"]
+- ["C7GeoBase9DataModel", "longitude"]
+- ["C7GeoBase9DataModel", "north"]
+- ["C7GeoBase9DataModel", "project"]
+- ["C7GeoBase9DataModel", "strike"]
+- ["C7GeoBase9DataModel", "structure"]
+- ["Ps9Equatable", "date"]
+- ["Ps9Equatable", "dip"]
+- ["Ps9Equatable", "direction"]
+- ["Ps9Equatable", "elevation"]
+- ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "latitude"]
+- ["Ps9Equatable", "longitude"]
+- ["Ps9Equatable", "north"]
+- ["Ps9Equatable", "project"]
+- ["Ps9Equatable", "strike"]
+- ["Ps9Equatable", "structure"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "date"]
+- ["Ps8Hashable", "dip"]
+- ["Ps8Hashable", "direction"]
+- ["Ps8Hashable", "elevation"]
+- ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "latitude"]
+- ["Ps8Hashable", "longitude"]
+- ["Ps8Hashable", "north"]
+- ["Ps8Hashable", "project"]
+- ["Ps8Hashable", "strike"]
+- ["Ps8Hashable", "structure"]
+- ["Ps8Hashable", ""]
+- ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "Int32"]
+- ["CSo15NSManagedObject", "Project"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "date"]
+- ["CSo15NSManagedObject", "dip"]
+- ["CSo15NSManagedObject", "direction"]
+- ["CSo15NSManagedObject", "elevation"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "latitude"]
+- ["CSo15NSManagedObject", "longitude"]
+- ["CSo15NSManagedObject", "north"]
+- ["CSo15NSManagedObject", "project"]
+- ["CSo15NSManagedObject", "strike"]
+- ["CSo15NSManagedObject", "structure"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int32"]
+- ["CSo8NSObject", "Project"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "dip"]
+- ["CSo8NSObject", "direction"]
+- ["CSo8NSObject", "elevation"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "latitude"]
+- ["CSo8NSObject", "longitude"]
+- ["CSo8NSObject", "north"]
+- ["CSo8NSObject", "project"]
+- ["CSo8NSObject", "strike"]
+- ["CSo8NSObject", "structure"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "dip"]
+- ["PSo16NSObjectProtocol", "direction"]
+- ["PSo16NSObjectProtocol", "elevation"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "latitude"]
+- ["PSo16NSObjectProtocol", "longitude"]
+- ["PSo16NSObjectProtocol", "north"]
+- ["PSo16NSObjectProtocol", "project"]
+- ["PSo16NSObjectProtocol", "strike"]
+- ["PSo16NSObjectProtocol", "structure"]
+- ["PSo16NSObjectProtocol", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
 - "C7GeoBase9DataModel"
-dynamic-lookup:
-cross-module:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "a2b8c906a19bbe40d989f1e5996b6c88"

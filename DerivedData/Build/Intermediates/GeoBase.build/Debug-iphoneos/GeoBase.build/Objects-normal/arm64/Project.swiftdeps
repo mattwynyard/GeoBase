@@ -1,28 +1,92 @@
 ### Swift dependencies file v0 ###
-provides:
+provides-top-level:
 - "Project"
-nominals:
+provides-nominal:
 - "C7GeoBase7Project"
-class-members:
+provides-member:
+- ["C7GeoBase7Project", ""]
+provides-dynamic-lookup:
+- "project"
 - "date_created"
 - "notes"
-- "project"
-top-level:
-- "String"
+depends-top-level:
 - "NSManagedObject"
-member-access:
+- "Project"
+- "String"
+depends-member:
+- ["Ps9AnyObject", "date_created"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "notes"]
+- ["Ps9AnyObject", "project"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "date_created"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "notes"]
+- ["Ps11CVarArgType", "project"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "date_created"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "notes"]
+- ["Ps28CustomDebugStringConvertible", "project"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "date_created"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "notes"]
+- ["Ps23CustomStringConvertible", "project"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "date_created"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "notes"]
+- ["Ps9Equatable", "project"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "date_created"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "notes"]
+- ["Ps8Hashable", "project"]
+- ["Ps8Hashable", ""]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "date_created"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "notes"]
+- ["CSo15NSManagedObject", "project"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "date_created"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "notes"]
+- ["CSo8NSObject", "project"]
+- ["PSo16NSObjectProtocol", "date_created"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "notes"]
+- ["PSo16NSObjectProtocol", "project"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C7GeoBase7Project", "String"]
+- ["C7GeoBase7Project", "date_created"]
+- ["C7GeoBase7Project", "deinit"]
+- ["C7GeoBase7Project", "init"]
+- ["C7GeoBase7Project", "notes"]
+- ["C7GeoBase7Project", "project"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
 - "CSo15NSManagedObject"
-- "C7GeoBase7Project"
-- "PSs9AnyObject"
 - "CSo8NSObject"
-dynamic-lookup:
-cross-module:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"
+- "PSo16NSObjectProtocol"
+- "C7GeoBase7Project"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "11181eba438598fd877e7397375d2d39"

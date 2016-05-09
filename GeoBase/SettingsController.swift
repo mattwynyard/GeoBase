@@ -29,8 +29,6 @@ class SettingsController: UITableViewController {
         restoreSwitchesStates()
         
         tableMembers = ["Use True North", "Measurement Style", "Project", "About"]
-        print("array built")
-
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -96,8 +94,6 @@ class SettingsController: UITableViewController {
             let projectController = storyboard?.instantiateViewControllerWithIdentifier("ProjectController") as! UITableViewController
             navigationController?.pushViewController(projectController, animated: true)
         }
-        
-        
     }
     
     func northSwitchDidChange(switchState: UISwitch) {
@@ -114,20 +110,11 @@ class SettingsController: UITableViewController {
     }
     
     func restoreSwitchesStates() {
-        
         print("restore")
         northSwitch.on = NSUserDefaults.standardUserDefaults().boolForKey("northSwitch");
-        
-//        if northSwitchBool {
-//           northSwitch.on = true
-//        } else {
-//            northSwitch.on = false
-//        }
-        
     }
     
     func saveSwitchesStates() {
-        
         print("save")
         NSUserDefaults.standardUserDefaults().setBool(northSwitch.on, forKey: "northSwitch")
         NSUserDefaults.standardUserDefaults().synchronize();

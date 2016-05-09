@@ -19,9 +19,13 @@ class CompassController: UIViewController, CLLocationManagerDelegate,
     @IBOutlet weak var strikeLabel: UILabel!
     @IBOutlet weak var dipLabel: UILabel!
     @IBOutlet weak var latitudeLabel: UILabel!
-    @IBOutlet weak var horizontalAccuracy: UILabel!
+    @IBOutlet weak var longitudeLabel: UILabel!
+    @IBOutlet weak var elevationLabel: UILabel!
+    @IBOutlet weak var longitudeAccuracy: UILabel!
+    @IBOutlet weak var latitudeAccuracy: UILabel!
+    @IBOutlet weak var verticalAccuracy: UILabel!
     @IBOutlet weak var pitchLabel: UILabel!
-    //@IBOutlet weak var yawLabel: UILabel!
+    @IBOutlet weak var yawLabel: UILabel!
     @IBOutlet weak var structSelector: UISegmentedControl!
     @IBOutlet weak var structLabel: UILabel! //Strike or Trend
     @IBOutlet weak var struct2Label: UILabel! //Dip or plunge
@@ -153,11 +157,12 @@ class CompassController: UIViewController, CLLocationManagerDelegate,
         self.locationArray = locations as NSArray //array to hold GPS readings
         self.currentLocation = locationArray.lastObject as! CLLocation
         
-        latitudeLabel.text = String(format: "%+.4f", currentLocation.coordinate.latitude) + "\u{00B0}" //degrees
-        //longitudeLabel.text = String(format: "%+.4f", currentLocation.coordinate.longitude) + "\u{00B0}"
-        horizontalAccuracy.text = "\u{00B1}" + String(format: "%.1f", currentLocation.horizontalAccuracy) + " m"
-        //elevationLabel.text = String(format: "%+.2f", currentLocation.altitude) + " m"
-        //accuracyVerticalLabel.text = "\u{00B1}" + String(format: "%.1f", currentLocation.verticalAccuracy) + " m"
+        latitudeLabel.text = String(format: "%+.3f", currentLocation.coordinate.latitude) + "\u{00B0}" //degrees
+        longitudeLabel.text = String(format: "%+.3f", currentLocation.coordinate.longitude) + "\u{00B0}"
+        latitudeAccuracy.text = "\u{00B1}" + String(format: "%.1f", currentLocation.horizontalAccuracy) + " m"
+        longitudeAccuracy.text = latitudeAccuracy.text
+        elevationLabel.text = String(format: "%+.1f", currentLocation.altitude) + " m"
+        verticalAccuracy.text = "\u{00B1}" + String(format: "%.1f", currentLocation.verticalAccuracy) + " m"
         
         if startLocation == nil {
             startLocation = currentLocation as CLLocation
@@ -297,9 +302,9 @@ class CompassController: UIViewController, CLLocationManagerDelegate,
                 (data: CMDeviceMotion?, error: NSError?) -> Void in
                 
                 self.pitch = (data!.attitude.pitch * 180) / M_PI
-                //let yaw = (data!.attitude.yaw * 180) / M_PI
+                let yaw = (data!.attitude.yaw * 180) / M_PI
                 let roll = (data!.attitude.roll * 180) / M_PI
-                //self?.yawLabel.text = String(format: "%.1f", yaw)
+                self.yawLabel.text = String(format: "%.1f", yaw)
                 
                 if (self.structSelector.selectedSegmentIndex == 1) { //strike/dip segmented control selected
                     

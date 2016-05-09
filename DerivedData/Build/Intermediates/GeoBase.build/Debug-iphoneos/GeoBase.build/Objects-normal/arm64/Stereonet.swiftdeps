@@ -1,36 +1,289 @@
 ### Swift dependencies file v0 ###
-provides:
+provides-top-level:
 - "Stereonet"
-nominals:
+provides-nominal:
 - "C7GeoBase9Stereonet"
-class-members:
+provides-member:
+- ["C7GeoBase9Stereonet", ""]
+provides-dynamic-lookup:
 - "drawRect"
-top-level:
-- !private "CGContextSetStrokeColorWithColor"
-- !private "UIColor"
-- !private "CGRectMake"
-- "UIView"
-- !private "CGContextSetLineWidth"
-- "CGRect"
-- !private "UIGraphicsGetCurrentContext"
+depends-top-level:
 - !private "CGContextStrokePath"
+- "Stereonet"
+- !private "UIColor"
+- "UIView"
+- !private "CGContextSetStrokeColorWithColor"
+- !private "CGContextSetLineWidth"
+- !private "CGRectMake"
 - !private "CGContextAddEllipseInRect"
-member-access:
-- "CSo6UIView"
-- "CSo8NSObject"
-- "PSs9AnyObject"
-- "CSo11UIResponder"
-- !private "CSo7UIColor"
-- "C7GeoBase9Stereonet"
+- !private "UIGraphicsGetCurrentContext"
+- "CGRect"
+depends-member:
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "CGContextAddEllipseInRect"]
+- !private ["Ps9AnyObject", "CGContextSetLineWidth"]
+- !private ["Ps9AnyObject", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps9AnyObject", "CGContextStrokePath"]
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9AnyObject", "blackColor"]
+- ["Ps9AnyObject", "drawRect"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "CGContextAddEllipseInRect"]
+- !private ["Ps11CVarArgType", "CGContextSetLineWidth"]
+- !private ["Ps11CVarArgType", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps11CVarArgType", "CGContextStrokePath"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIGraphicsGetCurrentContext"]
+- !private ["Ps11CVarArgType", "blackColor"]
+- ["Ps11CVarArgType", "drawRect"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextAddEllipseInRect"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextSetLineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps28CustomDebugStringConvertible", "CGContextStrokePath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps28CustomDebugStringConvertible", "blackColor"]
+- ["Ps28CustomDebugStringConvertible", "drawRect"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "CGContextAddEllipseInRect"]
+- !private ["Ps23CustomStringConvertible", "CGContextSetLineWidth"]
+- !private ["Ps23CustomStringConvertible", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps23CustomStringConvertible", "CGContextStrokePath"]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps23CustomStringConvertible", "blackColor"]
+- ["Ps23CustomStringConvertible", "drawRect"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "CGContextAddEllipseInRect"]
+- !private ["Ps9Equatable", "CGContextSetLineWidth"]
+- !private ["Ps9Equatable", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps9Equatable", "CGContextStrokePath"]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9Equatable", "blackColor"]
+- ["Ps9Equatable", "drawRect"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "CGContextAddEllipseInRect"]
+- !private ["Ps8Hashable", "CGContextSetLineWidth"]
+- !private ["Ps8Hashable", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps8Hashable", "CGContextStrokePath"]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps8Hashable", "blackColor"]
+- ["Ps8Hashable", "drawRect"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGContextAddEllipseInRect"]
+- !private ["PSo8NSCoding", "CGContextSetLineWidth"]
+- !private ["PSo8NSCoding", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo8NSCoding", "CGContextStrokePath"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo8NSCoding", "blackColor"]
+- ["PSo8NSCoding", "drawRect"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "blackColor"]
+- !private ["CSo8NSObject", "CGColor"]
+- !private ["CSo8NSObject", "CGContextAddEllipseInRect"]
+- !private ["CSo8NSObject", "CGContextSetLineWidth"]
+- !private ["CSo8NSObject", "CGContextSetStrokeColorWithColor"]
+- !private ["CSo8NSObject", "CGContextStrokePath"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- !private ["CSo8NSObject", "blackColor"]
+- ["CSo8NSObject", "drawRect"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGContextAddEllipseInRect"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetLineWidth"]
+- !private ["PSo16NSObjectProtocol", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo16NSObjectProtocol", "CGContextStrokePath"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- !private ["PSo16NSObjectProtocol", "blackColor"]
+- ["PSo16NSObjectProtocol", "drawRect"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "blackColor"]
+- !private ["C7GeoBase9Stereonet", "CGContextAddEllipseInRect"]
+- !private ["C7GeoBase9Stereonet", "CGContextSetLineWidth"]
+- !private ["C7GeoBase9Stereonet", "CGContextSetStrokeColorWithColor"]
+- !private ["C7GeoBase9Stereonet", "CGContextStrokePath"]
+- ["C7GeoBase9Stereonet", "CGRect"]
+- !private ["C7GeoBase9Stereonet", "CGRectMake"]
+- !private ["C7GeoBase9Stereonet", "UIColor"]
+- !private ["C7GeoBase9Stereonet", "UIGraphicsGetCurrentContext"]
+- ["C7GeoBase9Stereonet", "deinit"]
+- ["C7GeoBase9Stereonet", "drawRect"]
+- ["C7GeoBase9Stereonet", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextAddEllipseInRect"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextSetLineWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextStrokePath"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectMake"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- ["PSo29UIAccessibilityIdentification", "drawRect"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGContextAddEllipseInRect"]
+- !private ["PSo12UIAppearance", "CGContextSetLineWidth"]
+- !private ["PSo12UIAppearance", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo12UIAppearance", "CGContextStrokePath"]
+- !private ["PSo12UIAppearance", "CGRectMake"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetCurrentContext"]
+- ["PSo12UIAppearance", "drawRect"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGContextAddEllipseInRect"]
+- !private ["PSo21UIAppearanceContainer", "CGContextSetLineWidth"]
+- !private ["PSo21UIAppearanceContainer", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo21UIAppearanceContainer", "CGContextStrokePath"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetCurrentContext"]
+- ["PSo21UIAppearanceContainer", "drawRect"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "blackColor"]
+- !private ["PSo17UICoordinateSpace", "CGContextAddEllipseInRect"]
+- !private ["PSo17UICoordinateSpace", "CGContextSetLineWidth"]
+- !private ["PSo17UICoordinateSpace", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo17UICoordinateSpace", "CGContextStrokePath"]
+- !private ["PSo17UICoordinateSpace", "CGRectMake"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetCurrentContext"]
+- ["PSo17UICoordinateSpace", "drawRect"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGContextAddEllipseInRect"]
+- !private ["PSo13UIDynamicItem", "CGContextSetLineWidth"]
+- !private ["PSo13UIDynamicItem", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo13UIDynamicItem", "CGContextStrokePath"]
+- !private ["PSo13UIDynamicItem", "CGRectMake"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetCurrentContext"]
+- ["PSo13UIDynamicItem", "drawRect"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGContextAddEllipseInRect"]
+- !private ["PSo18UIFocusEnvironment", "CGContextSetLineWidth"]
+- !private ["PSo18UIFocusEnvironment", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo18UIFocusEnvironment", "CGContextStrokePath"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UIFocusEnvironment", "drawRect"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "CGContextAddEllipseInRect"]
+- !private ["CSo11UIResponder", "CGContextSetLineWidth"]
+- !private ["CSo11UIResponder", "CGContextSetStrokeColorWithColor"]
+- !private ["CSo11UIResponder", "CGContextStrokePath"]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIGraphicsGetCurrentContext"]
+- ["CSo11UIResponder", "drawRect"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo18UITraitEnvironment", "CGContextAddEllipseInRect"]
+- !private ["PSo18UITraitEnvironment", "CGContextSetLineWidth"]
+- !private ["PSo18UITraitEnvironment", "CGContextSetStrokeColorWithColor"]
+- !private ["PSo18UITraitEnvironment", "CGContextStrokePath"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UITraitEnvironment", "drawRect"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CGContextAddEllipseInRect"]
+- !private ["CSo6UIView", "CGContextSetLineWidth"]
+- !private ["CSo6UIView", "CGContextSetStrokeColorWithColor"]
+- !private ["CSo6UIView", "CGContextStrokePath"]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "CGRectMake"]
+- !private ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIGraphicsGetCurrentContext"]
+- ["CSo6UIView", "drawRect"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", ""]
+- !private ["Ps24_ColorLiteralConvertible", "CGColor"]
+- !private ["Ps24_ColorLiteralConvertible", "blackColor"]
+- !private ["Ps12_Reflectable", "CGContextAddEllipseInRect"]
+- !private ["Ps12_Reflectable", "CGContextSetLineWidth"]
+- !private ["Ps12_Reflectable", "CGContextSetStrokeColorWithColor"]
+- !private ["Ps12_Reflectable", "CGContextStrokePath"]
+- !private ["Ps12_Reflectable", "CGRectMake"]
+- !private ["Ps12_Reflectable", "UIColor"]
+- !private ["Ps12_Reflectable", "UIGraphicsGetCurrentContext"]
+- ["Ps12_Reflectable", "drawRect"]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
 - !private "V12CoreGraphics7CGFloat"
-dynamic-lookup:
-cross-module:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Swift.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/UIKit.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Foundation.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Darwin.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Dispatch.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreGraphics.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/Security.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/CoreImage.swiftmodule"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "C7GeoBase9Stereonet"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps24_ColorLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "ad05925e3019dd8849661705391bb79e"

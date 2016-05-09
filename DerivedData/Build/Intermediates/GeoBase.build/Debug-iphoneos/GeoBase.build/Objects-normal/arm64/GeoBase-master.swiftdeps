@@ -1,17 +1,18 @@
-version: "Apple Swift version 1.2 (swiftlang-602.0.49.6 clang-602.0.49)"
-options: "c1ad949894754487a6ed93e7491f31ca"
-inputs: 
-- "/Users/Matt/XCode/GeoBase/GeoBase/SettingsController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/ProjectController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/Stereonet.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/ViewController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/CompassController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/SaveButton.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/ProjectDetailController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/MapController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/DataViewController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/Locality.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/AppDelegate.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/DataModel.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/MeasurementController.swift"
-- "/Users/Matt/XCode/GeoBase/GeoBase/Project.swift"
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "36ef8e1029c9f9e66ec7056466ed7e9b"
+build_time: [516081233, 217087000]
+inputs:
+  "/Users/Matt/XCode/GeoBase/GeoBase/SettingsController.swift": [496012687, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ProjectController.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Stereonet.swift": [483011444, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ViewController.swift": [481863419, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/CompassController.swift": [516081233, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/SaveButton.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/ProjectDetailController.swift": [496012687, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/MapController.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/DataViewController.swift": [483415644, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Locality.swift": [485307980, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/AppDelegate.swift": [496012478, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/DataModel.swift": [485245034, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/MeasurementController.swift": [484052292, 0]
+  "/Users/Matt/XCode/GeoBase/GeoBase/Project.swift": [485822673, 0]
